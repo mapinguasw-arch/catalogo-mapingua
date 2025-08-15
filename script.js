@@ -1,4 +1,6 @@
 const produtos = [
+  { nome: "OVERSIZED SUEDINE", preco: "GOLA RIBANA", tamanho: "", img: "imagens/detalhes01.png" },
+  { nome: "OVERSIZED SUEDINE", preco: "REFORÇO NO OMBRO", tamanho: "", img: "imagens/manga01.png" },
   { nome: "SNAKE | Branco (M)", preco: "R$ 95,00", tamanho: "M", img: "imagens/snake01.png" },
   { nome: "HIGH | Preto (M)", preco: "R$ 95,00", tamanho: "M", img: "imagens/high01.png" },
   { nome: "NEW BALANCE | Preto (M)", preco: "R$ 95,00", tamanho: "M", img: "imagens/newbalance01.png" },
@@ -49,4 +51,5 @@ document.getElementById("filtroTamanho").addEventListener("change", filtrar);
 
 // Carregar todos os produtos no início
 carregarProdutos(produtos);
+
 
