@@ -16,7 +16,7 @@ function carregarProdutos(lista) {
   const catalogo = document.getElementById("catalogo");
   catalogo.innerHTML = lista.map(produto => `
     <div class="produto animate-fade">
-      <img src="${produto.img}" alt="${produto.nome}">
+      <img src="${produto.img}" alt="${produto.nome}" loading="lazy">
       <div class="info">
         <h2>${produto.nome}</h2>
         <p class="preco">${produto.preco}</p>
@@ -49,3 +49,4 @@ document.getElementById("filtroTamanho").addEventListener("change", filtrar);
 
 // Carregar todos os produtos no início
 carregarProdutos(produtos);
+
