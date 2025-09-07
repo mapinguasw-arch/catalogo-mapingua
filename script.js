@@ -1,7 +1,7 @@
 const produtos = [
   { nome: "OVERSIZED SUEDINE", preco: "GOLA RIBANA", tamanho: "", img: "imagens/detalhes01.png" },
   { nome: "OVERSIZED SUEDINE", preco: "REFORÇO NO OMBRO", tamanho: "", img: "imagens/manga01.png" },
-  { nome: "SNAKE | Branco (M)", preco: "SORTEIO 06/09", tamanho: "M", img: "imagens/snake01.png" },
+  { nome: "SNAKE | Branco (M)", preco: "SORTEADA!", tamanho: "M", img: "imagens/snake01.png" },
   { nome: "HIGH | Preto (M)", preco: "R$ 74,99", tamanho: "M", img: "imagens/high01.png" },
   { nome: "NEW BALANCE | Preto (M)", preco: "R$ 74,99", tamanho: "M", img: "imagens/newbalance01.png" },
   { nome: "DGK SAKURA | Cinza (G)", preco: "R$ 74,99", tamanho: "G", img: "imagens/sakura01.png" },
@@ -11,7 +11,7 @@ const produtos = [
   { nome: "JORDAN AIR | Preto (GG)", preco: "R$ 74,99", tamanho: "GG", img: "imagens/jordan01.png" },
   { nome: "OFF WHITE! | Marrom (GG)", preco: "R$ 74,99", tamanho: "GG", img: "imagens/offwhite01.png" },
   { nome: "ADIDAS | Azul Marinho (GG)", preco: "R$ 74,99", tamanho: "GG", img: "imagens/adidas01.png" },
-  { nome: "STÜSSY | Preto (GG)", preco: "R$ 74,99", tamanho: "GG", img: "imagens/stussy01.png" }
+  { nome: "STÜSSY | Preto (GG)", preco: "ESGOTADA!", tamanho: "GG", img: "imagens/stussy01.png" }
 ];
 
 function carregarProdutos(lista) {
@@ -51,6 +51,7 @@ document.getElementById("filtroTamanho").addEventListener("change", filtrar);
 
 // Carregar todos os produtos no início
 carregarProdutos(produtos);
+
 
 
 
