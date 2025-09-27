@@ -6,7 +6,7 @@ const produtos = [
   { nome: "NIKE JORDAN AIR | Preto (G)", preco: "R$ 55,00", tamanho: "G", img: "imagens/nikejordan01.png" },
   { nome: "SUPREME | Preto (G)", preco: "R$ 55,00", tamanho: "G", img: "imagens/supreme01.png" },
   { nome: "OFF WHITE! | Bege (G)", preco: "R$ 55,00", tamanho: "G", img: "imagens/offwhite02.png" },
-  { nome: "JORDAN AIR | Preto (GG)", preco: "R$ 55,00", tamanho: "GG", img: "imagens/jordan01.png" },
+  { nome: "JORDAN AIR | Preto (GG)", preco: "ESGOTADA!", tamanho: "GG", img: "imagens/jordan01.png" },
   { nome: "OFF WHITE! | Marrom (GG)", preco: "R$ 55,00", tamanho: "GG", img: "imagens/offwhite01.png" },
   { nome: "ADIDAS | Azul Marinho (GG)", preco: "R$ 55,00", tamanho: "GG", img: "imagens/adidas01.png" },
   { nome: "STÜSSY | Preto (GG)", preco: "ESGOTADA!", tamanho: "GG", img: "imagens/stussy01.png" }
@@ -49,6 +49,7 @@ document.getElementById("filtroTamanho").addEventListener("change", filtrar);
 
 // Carregar todos os produtos no início
 carregarProdutos(produtos);
+
 
 
 
